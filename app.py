@@ -405,4 +405,4 @@ def display_list(clickData, values, plotType):
    
 """ Run the app. """
 if __name__ == "__main__":
-    app.run_server(debug=True, use_reloader=False) 
+    app.run_server(debug=True, use_reloader=False, host='0.0.0.0')
